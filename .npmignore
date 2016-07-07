@@ -1,0 +1,8 @@
+.gitignore
+.npmignore
+.jshintrc
+.travis.yml
+npm-shrinkwrap.json
+*.iml
+spec
+.idea

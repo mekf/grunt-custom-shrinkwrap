@@ -1,0 +1,32 @@
+{
+  "name": "grunt-custom-shrinkwrap",
+  "version": "0.1.0",
+  "description": "Grunt task that creates a shrinkwrap file and allows to take specific dependencies out of it",
+  "main": "index.js",
+  "scripts": {
+    "test": "jshint tasks/*.js spec/*.js && jasmine"
+  },
+  "keywords": [
+    "grunt",
+    "shrinkwrap",
+    "exec",
+    "optionalDependencies"
+  ],
+  "author": "Angelo Tata <angelo.tata@skyscanner.net>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chalk": "^1.1.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "jasmine": "^2.4.1",
+    "jshint": "^2.9.2"
+  },
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skyscanner/grunt-custom-shrinkwrap.git"
+  }
+}
