@@ -1,4 +1,4 @@
-# grunt-custom-shrinkwrap
+# grunt-custom-shrinkwrap [![Build Status](https://travis-ci.org/Skyscanner/grunt-custom-shrinkwrap.svg?branch=master)](https://travis-ci.org/Skyscanner/grunt-custom-shrinkwrap)
 
 > Run `npm shrinkwrap` and customise the output file
 
@@ -68,7 +68,7 @@ grunt.initConfig({
 grunt.initConfig({
     customShrinkwrap: {
         defaultTarget: {
-            excludeDependencies: [ 'dep1', 'dep2']
+            excludeDependencies: [ 'dep1', 'dep2' ]
         }
     }
 });
