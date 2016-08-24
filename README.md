@@ -28,7 +28,7 @@ grunt.initConfig({
         defaultTarget: {
             options: {
                 devDependencies: true,
-                excludedDependencies: [ 'fsevents' ]
+                excludeDependencies: [ 'fsevents' ]
             },
         }
     }

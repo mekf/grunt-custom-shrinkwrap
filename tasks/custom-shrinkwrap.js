@@ -44,7 +44,7 @@ module.exports = function (grunt) {
                 delete shrinkwrappedJson.dependencies[excludedDependency];
             });
 
-            grunt.file.write('./npm-shrinkwrap.json', JSON.stringify(shrinkwrappedJson));
+            grunt.file.write('./npm-shrinkwrap.json', JSON.stringify(shrinkwrappedJson, null, '  '));
 
             grunt.verbose.writeln(
                 'removed',
